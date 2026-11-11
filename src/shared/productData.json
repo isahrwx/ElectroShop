@@ -1,0 +1,489 @@
+
+{
+  "categoryInfo":[
+
+    {"id":1,"categoryImage":"/src/images/products/HeadPhones/headphones.jfif" , "categoryTitle":"Headphones"},
+    {"id":2,"categoryImage":"/src/images/products/Accessories/accessories 2.jfif","categoryTitle":"Accessories"},
+    {"id":3,"categoryImage":"/src/images/products/Speackers/speackers.jfif","categoryTitle":"Speackers"}
+  ],
+
+    "Headphones": [
+    {
+      "id": 1,
+      "title": "Headphone Sony s1",
+      "description": "The Sony S1 headphones feature a simple black design, making them a practical choice for everyday music listening, working, and entertainment.",
+      "image": "/src/images/products/HeadPhones/sonyHeadphone1.jfif",
+      "altdescription": "Sony S1 black headphones with a simple and practical design",
+      "price": 110,
+      "categories": "Headphones",
+      "color": "black",
+      "brand": "sony"
+    },
+    {
+      "id": 2,
+      "title": "Headphone Sony s2",
+      "description": "The Sony S2 headphones come with a clean white finish and a minimalist appearance, ideal for users who appreciate simple and stylish audio accessories.",
+      "image": "/src/images/products/HeadPhones/sonyHeadphone2.jfif",
+      "altdescription": "Sony S2 white headphones with a minimalist design",
+      "price": 250,
+      "categories": "Headphones",
+      "color": "white",
+      "brand": "sony"
+    },
+    {
+      "id": 3,
+      "title": "Headphone Sony s3",
+      "description": "The Sony S3 headphones feature an elegant white design, making them a suitable companion for enjoying music, podcasts, and other audio content throughout the day.",
+      "image": "/src/images/products/HeadPhones/sonyHeadphone3.jfif",
+      "altdescription": "Sony S3 white headphones for everyday music listening",
+      "price": 220,
+      "categories": "Headphones",
+      "color": "white",
+      "brand": "sony"
+    },
+    {
+      "id": 4,
+      "title": "Headphone Sony s4",
+      "description": "The Sony S4 headphones feature a modern dark gray finish, offering a stylish appearance for users looking for practical everyday headphones.",
+      "image": "/src/images/products/HeadPhones/sonyHeadphone4.jfif",
+      "altdescription": "Sony S4 dark gray headphones with a modern design",
+      "price": 310,
+      "categories": "Headphones",
+      "color": "darkgray",
+      "brand": "sony"
+    },
+    {
+      "id": 5,
+      "title": "Headphone Sony s5",
+      "description": "The Sony S5 headphones stand out with their attractive pink color and unique appearance, making them a great choice for users who love stylish audio accessories.",
+      "image": "/src/images/products/HeadPhones/sonyHeadphone5.jfif",
+      "altdescription": "Sony S5 pink headphones with an attractive and unique design",
+      "price": 350,
+      "categories": "Headphones",
+      "color": "pink",
+      "brand": "sony"
+    },
+    {
+      "id": 6,
+      "title": "Headphone Sony s6",
+      "description": "The Sony S6 headphones feature a classic black finish and a simple design, making them a versatile option for daily use and entertainment.",
+      "image": "/src/images/products/HeadPhones/sonyHeadphone6.jfif",
+      "altdescription": "Sony S6 black headphones with a classic everyday design",
+      "price": 290,
+      "categories": "Headphones",
+      "color": "black",
+      "brand": "sony"
+    },
+    {
+      "id": 7,
+      "title": "Headphone Sony s7",
+      "description": "The Sony S7 headphones combine a clean white appearance with an elegant design, making them an appealing choice for fans of minimalist audio products.",
+      "image": "/src/images/products/HeadPhones/sonyHeadphone7.jfif",
+      "altdescription": "Sony S7 white headphones with an elegant minimalist look",
+      "price": 380,
+      "categories": "Headphones",
+      "color": "white",
+      "brand": "sony"
+    },
+    {
+      "id": 8,
+      "title": "Headphone SennheiserHeadphone q1",
+      "description": "The Sennheiser Q1 headphones feature a light gray finish and an appealing design, offering a stylish option for music and audio enthusiasts.",
+      "image": "/src/images/products/HeadPhones/SennheiserHeadphone 1.jfif",
+      "altdescription": "Sennheiser Q1 light gray headphones",
+      "price": 870,
+      "categories": "Headphones",
+      "color": "lightgray",
+      "brand": "Sennheiser"
+    },
+    {
+      "id": 9,
+      "title": "Headphone SennheiserHeadphone q2",
+      "description": "The Sennheiser Q2 headphones feature a dark blue finish that creates a distinctive and stylish appearance, suitable for everyday listening and entertainment.",
+      "image": "/src/images/products/HeadPhones/SennheiserHeadphone 2.jfif",
+      "altdescription": "Sennheiser Q2 dark blue headphones with a stylish appearance",
+      "price": 754,
+      "categories": "Headphones",
+      "color": "darkblue",
+      "brand": "Sennheiser"
+    },
+    {
+      "id": 10,
+      "title": "Headphone SennheiserHeadphone q3",
+      "description": "The Sennheiser Q3 headphones feature a distinctive combination of black and white, creating a two-tone appearance for users who prefer unique audio accessories.",
+      "image": "/src/images/products/HeadPhones/SennheiserHeadphone 3.jfif",
+      "altdescription": "Sennheiser Q3 black and white dual-color headphones",
+      "price": 985,
+      "categories": "Headphones",
+      "color": ["black", "white"],
+      "brand": "Sennheiser"
+    },
+    {
+      "id": 11,
+      "title": "Headphone SennheiserHeadphone q4",
+      "description": "The Sennheiser Q4 headphones feature a distinctive brown finish and an eye-catching appearance, making them an interesting choice for fans of unique audio designs.",
+      "image": "/src/images/products/HeadPhones/SennheiserHeadphone 4.jfif",
+      "altdescription": "Sennheiser Q4 brown headphones with a distinctive design",
+      "price": 1850,
+      "categories": "Headphones",
+      "color": "brown",
+      "brand": "Sennheiser"
+    },
+    {
+      "id": 12,
+      "title": "Headphone SennheiserHeadphone q5",
+      "description": "The Sennheiser Q5 headphones come in a classic black color with a simple and versatile appearance, suitable for different everyday activities.",
+      "image": "/src/images/products/HeadPhones/SennheiserHeadphone 5.jfif",
+      "altdescription": "Sennheiser Q5 black headphones for everyday use",
+      "price": 986,
+      "categories": "Headphones",
+      "color": "black",
+      "brand": "Sennheiser"
+    },
+    {
+      "id": 13,
+      "title": "Headphone SennheiserHeadphone q6",
+      "description": "The Sennheiser Q6 headphones feature a dark gray finish and a modern appearance, making them an attractive option for audio equipment enthusiasts.",
+      "image": "/src/images/products/HeadPhones/SennheiserHeadphone 6.jfif",
+      "altdescription": "Sennheiser Q6 dark gray headphones with a modern look",
+      "price": 2713,
+      "categories": "Headphones",
+      "color": "darkgray",
+      "brand": "Sennheiser"
+    },
+    {
+      "id": 14,
+      "title": "Headphone SennheiserHeadphone q7",
+      "description": "The Sennheiser Q7 headphones feature a combination of black, white, and dark gray colors, offering a distinctive multi-color design for users who appreciate unique styles.",
+      "image": "/src/images/products/HeadPhones/SennheiserHeadphone 7.jfif",
+      "altdescription": "Sennheiser Q7 headphones featuring black, white, and dark gray colors",
+      "price": 1598,
+      "categories": "Headphones",
+      "color": ["black", "white", "darkgray"],
+      "brand": "Sennheiser"
+    }
+  ],
+    "Accessories": [
+    {
+      "id": 1,
+      "title": "Anker WireLess charger c1",
+      "description": "",
+      "image": "/src/images/products/Accessories/Anker WireLess charger 1.jfif",
+      "altdescription": "",
+      "price": 110,
+      "categories": "Accessories",
+      "color": "lightgray",
+      "brand": "Anker"
+    },
+    {
+      "id": 2,
+      "title": "iphone charger cute bear c1",
+      "description": "",
+      "image": "/src/images/products/Accessories/iphone charger 1.jfif",
+      "altdescription": "",
+      "price": 250,
+      "categories": "Accessories",
+      "color": "brown",
+      "brand": "charger"
+    },
+    {
+      "id": 3,
+      "title": "iphone charger Astronaut c1 ",
+      "description": "",
+      "image": "/src/images/products/Accessories/iphone charger 2.jfif",
+      "altdescription": "",
+      "price": 220,
+      "categories": "Accessories",
+      "color": "blue",
+      "brand": "charger"
+    },
+    {
+      "id": 4,
+      "title": "cat mobile holder",
+      "description": "",
+      "image": "/src/images/products/Accessories/kat mobile holder.jfif",
+      "altdescription": "",
+      "price": 310,
+      "categories": "Accessories",
+      "color": "brown",
+      "brand": "holder"
+    },
+    {
+      "id": 5,
+      "title": "mobile holde c1",
+      "description": "",
+      "image": "/src/images/products/Accessories/mobile holder c1.jfif",
+      "altdescription": "",
+      "price": 350,
+      "categories": "Accessories",
+      "color": "darkgray",
+      "brand": "holder"
+    },
+    {
+      "id": 6,
+      "title": "mobile holde c2",
+      "description": "",
+      "image": "/src/images/products/Accessories/mobile holder c2.jfif",
+      "altdescription": "",
+      "price": 290,
+      "categories": "Accessories",
+      "color": "black",
+      "brand": "holder"
+    },
+    {
+      "id": 7,
+      "title": "mobile holde c3",
+      "description": "",
+      "image": "/src/images/products/Accessories/mobile holder c3.jfif",
+      "altdescription": "",
+      "price": 380,
+      "categories": "Accessories",
+      "color": "darkgray",
+      "brand": "holder"
+    },
+    {
+      "id": 8,
+      "title": "mobile holde c4",
+      "description": "",
+      "image": "/src/images/products/Accessories/mobile holder c4.jfif",
+      "altdescription": "",
+      "price": 870,
+      "categories": "Accessories",
+      "color": ["black","white"],
+      "brand": "holder"
+    },
+    {
+      "id": 9,
+      "title": "multi type charger c1",
+      "description": "",
+      "image": "/src/images/products/Accessories/multi type charger 1.jfif",
+      "altdescription": "",
+      "price": 754,
+      "categories": "Accessories",
+      "color": "darkgray",
+      "brand": "charger"
+    },
+    {
+      "id": 10,
+      "title": "portronics power bank c1",
+      "description": "The Sennheiser Q3 headphones feature a distinctive combination of black and white, creating a two-tone appearance for users who prefer unique audio accessories.",
+      "image": "/src/images/products/Accessories/port ronics power bank.jfif",
+      "altdescription": "Sennheiser Q3 black and white dual-color headphones",
+      "price": 985,
+      "categories": "Accessories",
+      "color": "black",
+      "brand": "portronics"
+    },
+    {
+      "id": 11,
+      "title": "turbo power bank c1",
+      "description": "",
+      "image": "/src/images/products/Accessories/turbo power bank 1.jfif",
+      "altdescription": "",
+      "price": 1850,
+      "categories": "Accessories",
+      "color": "white",
+      "brand": "turbo"
+    },
+    {
+      "id": 12,
+      "title": "turbo power bank c2",
+      "description": "",
+      "image": "/src/images/products/Accessories/turbo power bank 2.jfif",
+      "altdescription": "",
+      "price": 986,
+      "categories": "Accessories",
+      "color": "black",
+      "brand": "turbo"
+    },
+    {
+      "id": 13,
+      "title": "type c  charger c1",
+      "description": "",
+      "image": "/src/images/products/Accessories/type C charger 1.jfif",
+      "altdescription": "",
+      "price": 2713,
+      "categories": "Accessories",
+      "color": "golden",
+      "brand": "charger"
+    },
+    {
+      "id": 14,
+      "title": "type c  charger c2",
+      "description": "",
+      "image": "/src/images/products/Accessories/type C charger.jfif",
+      "altdescription": "",
+      "price": 1598,
+      "categories": "Accessories",
+      "color":"lightgray",
+      "brand": "charger"
+    },
+    {
+      "id": 15,
+      "title": "URBN power bank c1",
+      "description": "",
+      "image": "/src/images/products/Accessories/URBN power bank.jfif",
+      "altdescription": "",
+      "price": 1598,
+      "categories": "Accessories",
+      "color":"green",
+      "brand": "URBN"
+    }
+  ],
+    "Speackers": [
+    {
+      "id": 1,
+      "title": "Alexaspeacker c1",
+      "description": "",
+      "image": "/src/images/products/Speackers/Alexaspeacker 1.jfif",
+      "price": 87,
+      "altdescription": "",
+      "categories": "Speackers",
+      "color": "black",
+      "brand": "Alexa"
+    },
+    {
+      "id": 2,
+      "title": "Daykit speacker q1",
+      "description": "",
+      "image": "/src/images/products/Speackers/daykit speacker 1.jfif",
+      "altdescription": "",
+      "price": 250,
+      "categories": "Speackers",
+      "color": "pink",
+      "brand": "daykit"
+    },
+    {
+      "id": 3,
+      "title": "JBL party speacker c1",
+      "description": "",
+      "image": "/src/images/products/Speackers/JBL speacker 1.jfif",
+      "altdescription": "",
+      "price": 220,
+      "categories": "Speackers",
+      "color": "red",
+      "brand": "JBL party"
+    },
+    {
+      "id": 4,
+      "title": "JBL party speacker c2",
+      "description": "",
+      "image": "/src/images/products/HeadPhones/sonyHeadphone4.jfif",
+      "altdescription": "",
+      "price": 310,
+      "categories": "Speackers",
+      "color": "blue",
+      "brand": "JBL party"
+    },
+    {
+      "id": 5,
+      "title": "JBL party speacker c3",
+      "description": "",
+      "image": "/src/images/products/HeadPhones/sonyHeadphone5.jfif",
+      "altdescription": "",
+      "price": 350,
+      "categories": "Speackers",
+      "color": "black",
+      "brand": "JBL party"
+    },
+    {
+      "id": 6,
+      "title": "JBL party speacker c4",
+      "description": "",
+      "image": "/src/images/products/HeadPhones/sonyHeadphone6.jfif",
+      "altdescription": "",
+      "price": 290,
+      "categories": "Speackers",
+      "color": "black",
+      "brand": "JBL party"
+    },
+    {
+      "id": 7,
+      "title": "Ortizan speacker z1",
+      "description": "",
+      "image": "/src/images/products/Speackers/Ortizan speacker 2.jfif",
+      "altdescription": "",
+      "price": 380,
+      "categories": "Speackers",
+      "color": ["black","green"],
+      "brand": "Ortizan"
+    },
+    {
+      "id": 8,
+      "title": "Ortizan speacker z2",
+      "description": "",
+      "image": "/src/images/products/Speackers/ortizan speacker o1.jfif",
+      "altdescription": "",
+      "price": 870,
+      "categories": "Speackers",
+      "color": "black",
+      "brand": "Ortizan"
+    },
+    {
+      "id": 9,
+      "title": "sony speacker c1",
+      "description": "",
+      "image": "/src/images/products/Speackers/sony speacker 1.jfif",
+      "altdescription": "",
+      "price": 754,
+      "categories": "Speackers",
+      "color": "black",
+      "brand": "sony"
+    },
+    {
+      "id": 10,
+      "title": "sony speacker c2",
+      "description": "",
+      "image": "/src/images/products/Speackers/sony speacker 2.jfif",
+      "altdescription": "",
+      "price": 985,
+      "categories": "Speackers",
+      "color": "green",
+      "brand": "sony"
+    },
+    {
+      "id": 11,
+      "title": "sony speacker c3",
+      "description": "",
+      "image": "/src/images/products/Speackers/sony speacker 3.jfif",
+      "altdescription": "",
+      "price": 1850,
+      "categories": "Speackers",
+      "color": "green",
+      "brand": "sony"
+    },
+    {
+      "id": 12,
+      "title": "sony speacker c4",
+      "description": "",
+      "image": "/src/images/products/Speackers/sony speacker 4.jfif",
+      "altdescription": "",
+      "price": 986,
+      "categories": "Speackers",
+      "color": "purple",
+      "brand": "sony"
+    },
+    {
+      "id": 13,
+      "title": "T&G speacker c1",
+      "description": "",
+      "image": "/src/images/products/Speackers/T&G speacker 1.jfif",
+      "altdescription": "",
+      "price": 2713,
+      "categories": "Speackers",
+      "color": ["black","blue","red","green"],
+      "brand": "sony"
+    },
+    {
+      "id": 14,
+      "title": "yier speacket c1",
+      "description": "",
+      "image": "/src/images/products/Speackers/yier speacker 1.jfif",
+      "altdescription": "",
+      "price": 1598,
+      "categories": "Speackers",
+      "color":"black",
+      "brand": "yier"
+    }
+  ]
+}
