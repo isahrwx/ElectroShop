@@ -5,9 +5,9 @@ const Navbar = () => {
   return (
     <div>
       <div className="navbar-container px-10 " style={{background:'#0B132B'}}>
-        <div className="top-navbar flex gap-6 flex items-center  border-b  border-b-gray-600 w-full h-30 ">
+        <div className="top-navbar flex gap-6  items-center  border-b  border-b-gray-600 w-full h-30 ">
             <div className="logo-box w-1/4">
-            <img src={logo} alt="electroshop logo" className="w-35 h-15" />
+           <Link to="/"> <img src={logo} alt="electroshop logo" className="w-35 h-15" /></Link>
             </div>
             <div className="search-box-container px-3 py-3 rounded-lg h-13 bg-blue-950 border border-blue-800 w-2/4" >
             <div className="searchbox flex justify-between"><input type="text" placeholder="Search For Product ..." className="text-amber-50 "  name="" id="" /> <span>
