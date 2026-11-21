@@ -1,8 +1,9 @@
+import HomeSlider from "./HomeSlider"
 
 const HomePage = () => {
   return (
     <div>
-      homePage
+     <HomeSlider/>
     </div>
   )
 }

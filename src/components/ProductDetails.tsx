@@ -13,7 +13,7 @@ const ProductDetails = () => {
            <div className="left w-1/2 p-4">
             <img src={image} className="w-100 h-150 mx-auto rounded-2xl" alt={altdescription} />
            </div>
-           <div className="right w-1/2 py-10 px-4 flex bg-gray-100 rounded-xl h-100 mt-20 flex-col gap-5  mr-15">
+           <div className="right w-1/2 py-10 px-4 flex bg-gray-100 rounded-xl mt-20 flex-col gap-5  mr-15">
             <span  className="font-bold text-gray-600">{categories}</span>
             <h2 className="text-2xl ">{Producttitle}</h2>
             <div className=" items-end border-b  py-3 w-150 price-box flex justify-between">
