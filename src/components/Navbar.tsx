@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../images/ElectroShopLogo.png";
-import { Search } from "lucide-react";
+import { Search, ShoppingCart } from "lucide-react";
 const Navbar = () => {
   return (
     <div>
@@ -10,14 +10,18 @@ const Navbar = () => {
            <Link to="/"> <img src={logo} alt="electroshop logo" className="w-35 h-15" /></Link>
             </div>
             <div className="search-box-container px-3 py-3 rounded-lg h-13 bg-blue-950 border border-blue-800 w-2/4" >
-            <div className="searchbox flex justify-between"><input type="text" placeholder="Search For Product ..." className="text-amber-50 "  name="" id="" /> <span>
+            <div className="searchbox flex justify-between">
+              <input type="text" placeholder="Search For Product ..." className="text-amber-50 w-200 py-1 focus:outline-none"  name="" id="" /> <span>
                 <Search size={22} className="text-blue-400"/>
                 </span></div>
             </div>
             <div className="user-area-box-container w-1/4">
-            <div className="user-area-box flex w-full justify-center gap-4">
+            <div className="user-area-box flex w-full items-center justify-center gap-4">
                 <button className="bg-blue-950 border border-blue-800 text-white px-4 py-1 hover:bg-blue-600 rounded-lg ">Login</button>
                 <button className="text-white border-b border-b-blue-700 hover:text-blue-300">Sign Up</button>
+               <span>
+                 <ShoppingCart color="white" size={25} />
+                </span>
             </div>
             </div>
         </div>

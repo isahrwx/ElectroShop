@@ -6,30 +6,23 @@ import CategoryProducts from './components/CategoryProducts'
 import SetCategoryContextProvider from './contexts/SetCategoryContextProvider'
 import ProductDetails from './components/ProductDetails'
 import HomePage from './components/HomePage'
-import ShoppingCartComponent from './components/ShoppingCart/ShoppingCart'
+import CartContextProvider from './contexts/CartContextProvider'
 
 function App() {
   return (
     <>
-        <SetCategoryContextProvider>
-      <Routes>
-        <Route path='/'  element={<HomePage/>} />
-        <Route path='/categorys'  element={<Categories/>} />
-        <Route path='/categorys/:title' element={<CategoryProducts/>} />
-        <Route path='/categorys/:title/:id' element={<ProductDetails/>} />
-        <Route path='/shoppingcart' element={<ShoppingCartComponent/>} />
+      <SetCategoryContextProvider>
+        <CartContextProvider>
+          <Routes>
+            <Route path='/' element={<HomePage />} />
+            <Route path='/categorys' element={<Categories />} />
+            <Route path='/categorys/:title' element={<CategoryProducts />} />
+            <Route path='/categorys/:title/:id' element={<ProductDetails />} />
+          </Routes>
+        </CartContextProvider>
 
-      </Routes>
-
-      <div>
-
-
-
-        
-
-
-      </div>
-        </SetCategoryContextProvider>
+  
+      </SetCategoryContextProvider>
     </>
   )
 }
