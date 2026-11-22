@@ -27,15 +27,15 @@ const ProductCart = (props) => {
           <Link to={`/categorys/${categories}/${id}`} className="text-blue-500 px-3 rounded-sm ">Details</Link>
 
           <div className="flex flex-row-reverse gap-2">
-            {isInCart(state, id)
+            {isInCart(state, id,categories)
               ? <button className="bg-blue-500 px-3 rounded-sm text-white hover:bg-blue-900" onClick={() => dispatch({ type: "INCREASE", payload: productData })} >+</button>
               : <button className="bg-blue-500 px-3 rounded-sm text-white hover:bg-blue-900" onClick={() => dispatch({ type: "ADD_ITEM", payload: productData })} >Add To Cart</button>
             }
             {
-              quantityCount(state , id ) === 1 && <button className="bg-blue-500 px-3 rounded-sm text-white hover:bg-blue-900" onClick={() => dispatch({ type: "REMOVE_ITEM", payload: productData })} ><Trash size={16}/></button>
+              quantityCount(state , id,categories ) === 1 && <button className="bg-blue-500 px-3 rounded-sm text-white hover:bg-blue-900" onClick={() => dispatch({ type: "REMOVE_ITEM", payload: productData })} ><Trash size={16}/></button>
             }
            {
-             quantityCount(state , id ) >1 && <button className="bg-blue-500 px-3 rounded-sm text-white hover:bg-blue-900" onClick={() => dispatch({ type: "DECREASE", payload: productData })} >-</button>
+             quantityCount(state , id ,categories) >1 && <button className="bg-blue-500 px-3 rounded-sm text-white hover:bg-blue-900" onClick={() => dispatch({ type: "DECREASE", payload: productData })} >-</button>
             }
           </div>
           

@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="right-box w-1/2 px-6 py-3 ">
                         <div className="email-box border border-blue-700 px-6 py-2 bg-blue-950 rounded-lg flex justify-between ">
 
-                            <input type="text" placeholder="Enter Your Email Addrress" className="text-gray-300 w-200 bg-blue-950 focus:outline-none" /> 
+                            <input type="text" placeholder="Enter Your Email Addrress" className="text-gray-300 w-150 bg-blue-950 focus:outline-none" /> 
                             <button className="bg-blue-500 rounded-lg hover:bg-blue-600 text-white font-bold px-6 py-2">Send Email</button>
                         </div>
                     </div>

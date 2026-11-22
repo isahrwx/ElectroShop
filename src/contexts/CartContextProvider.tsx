@@ -28,12 +28,15 @@ const cartReducer = (state, action) => {
 
         }
 
-        case "REMOVE_ITEM": {
-            const newSelectedItems = state.selectedItems.filter(item => item.id !== action.payload.id)
-            return {
-                ...state, selectedItems: [...newSelectedItems]
-            }
-        }
+       case "REMOVE_ITEM": {
+  return {
+    ...state,
+    selectedItems: state.selectedItems.filter(item =>
+      !(item.id === action.payload.id &&
+        item.categories === action.payload.categories)
+    )
+  };
+}
         case "INCREASE": {
     return {
         ...state,
@@ -45,15 +48,17 @@ const cartReducer = (state, action) => {
         )
     };
 }
-
-        case "DECREASE": {
-            const indexD = state.selectedItems.findIndex(item => item.id === action.payload.id);
-            state.selectedItems[indexD].quantity--;
-            return ({
-                ...state
-
-            })
-        }
+case "DECREASE": {
+    return {
+        ...state,
+        selectedItems: state.selectedItems.map(item =>
+            item.id === action.payload.id &&
+            item.categories === action.payload.categories
+                ? { ...item, quantity: item.quantity - 1 }
+                : item
+        )
+    };
+}
         case "CHECKOUT": {
             return {
                 selectedItems: [],
