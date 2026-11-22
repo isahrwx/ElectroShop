@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import logo from "../images/ElectroShopLogo.png";
 import { Search, ShoppingCart } from "lucide-react";
+
 const Navbar = () => {
+  
   return (
     <div>
       <div className="navbar-container px-10 " style={{background:'#0B132B'}}>

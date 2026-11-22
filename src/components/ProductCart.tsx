@@ -31,6 +31,7 @@ const ProductCart = (props) => {
               ? <button className="bg-blue-500 px-3 rounded-sm text-white hover:bg-blue-900" onClick={() => dispatch({ type: "INCREASE", payload: productData })} >+</button>
               : <button className="bg-blue-500 px-3 rounded-sm text-white hover:bg-blue-900" onClick={() => dispatch({ type: "ADD_ITEM", payload: productData })} >Add To Cart</button>
             }
+            <span className="text-blue-500">{quantityCount(state , id ,categories)>0 && quantityCount(state , id ,categories) }</span>
             {
               quantityCount(state , id,categories ) === 1 && <button className="bg-blue-500 px-3 rounded-sm text-white hover:bg-blue-900" onClick={() => dispatch({ type: "REMOVE_ITEM", payload: productData })} ><Trash size={16}/></button>
             }

@@ -6,6 +6,8 @@ const initialState = {
     total: 0,
     checkout: false
 }
+
+
 export const  CartContext = createContext(null);
 const cartReducer = (state, action) => {
    
