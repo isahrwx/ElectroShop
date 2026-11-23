@@ -26,6 +26,7 @@ const cartReducer = (state, action) => {
             ...state.selectedItems,
             { ...action.payload, quantity: 1 }
         ]
+        , itemCounter:state.itemCounter+1
     };
 
         }
@@ -36,7 +37,7 @@ const cartReducer = (state, action) => {
     selectedItems: state.selectedItems.filter(item =>
       !(item.id === action.payload.id &&
         item.categories === action.payload.categories)
-    )
+    ),itemCounter:state.itemCounter-1
   };
 }
         case "INCREASE": {
@@ -48,6 +49,7 @@ const cartReducer = (state, action) => {
                 ? { ...item, quantity: item.quantity + 1 }
                 : item
         )
+        , itemCounter:state.itemCounter+1
     };
 }
 case "DECREASE": {
@@ -68,7 +70,7 @@ case "DECREASE": {
                         item.id === action.payload.id &&
                         item.categories === action.payload.categories
                     )
-            )
+            ),itemCounter:state.itemCounter-1
         };
     }
 
@@ -79,7 +81,7 @@ case "DECREASE": {
             item.categories === action.payload.categories
                 ? { ...item, quantity: item.quantity - 1 }
                 : item
-        )
+        ),itemCounter:state.itemCounter-1
     };
 }
         case "CHECKOUT": {

@@ -8,12 +8,15 @@ import ProductDetails from './components/ProductDetails'
 import HomePage from './components/HomePage'
 import CartContextProvider from './contexts/CartContextProvider'
 import ShoppingCartComponent from './components/shoppingcart/ShoppingCartComponent'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
       <SetCategoryContextProvider>
         <CartContextProvider>
+          <Navbar/>
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/categorys' element={<Categories />} />
@@ -21,6 +24,7 @@ function App() {
             <Route path='/categorys/:title' element={<CategoryProducts />} />
             <Route path='/categorys/:title/:id' element={<ProductDetails />} />
           </Routes>
+          <Footer/>
         </CartContextProvider>
 
   

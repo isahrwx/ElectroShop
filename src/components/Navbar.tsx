@@ -1,8 +1,19 @@
 import { Link } from "react-router-dom";
 import logo from "../images/ElectroShopLogo.png";
 import { Search, ShoppingCart } from "lucide-react";
+import { useContext } from "react";
+import { CartContext } from "../contexts/CartContextProvider";
 
 const Navbar = () => {
+  const {state} = useContext(CartContext);
+  const {itemCounter} = state;
+
+  
+ 
+
+ 
+  
+
   
   return (
     <div>
@@ -23,7 +34,7 @@ const Navbar = () => {
                 <button className="text-white border-b border-b-blue-700 hover:text-blue-300">Sign Up</button>
                <Link to="/shoppingcart">
                
-                 <ShoppingCart color="white" size={25} />
+                 <span className="text-white flex gap-1"><ShoppingCart color="white" size={25} /> {itemCounter}</span>
                </Link>
             </div>
             </div>
