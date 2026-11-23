@@ -7,6 +7,7 @@ import SetCategoryContextProvider from './contexts/SetCategoryContextProvider'
 import ProductDetails from './components/ProductDetails'
 import HomePage from './components/HomePage'
 import CartContextProvider from './contexts/CartContextProvider'
+import ShoppingCartComponent from './components/shoppingcart/ShoppingCartComponent'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/categorys' element={<Categories />} />
+            <Route path='/shoppingcart' element={<ShoppingCartComponent />} />
             <Route path='/categorys/:title' element={<CategoryProducts />} />
             <Route path='/categorys/:title/:id' element={<ProductDetails />} />
           </Routes>

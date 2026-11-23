@@ -83,6 +83,7 @@ case "DECREASE": {
 
 const CartContextProvider = (props) => {
     const [state, dispatch] = useReducer(cartReducer, initialState);
+    console.log("Provider state:", state.selectedItems);
     return (
       <CartContext.Provider value={{state , dispatch}}>
         {props.children}
