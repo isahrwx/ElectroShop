@@ -51,6 +51,27 @@ const cartReducer = (state, action) => {
     };
 }
 case "DECREASE": {
+    const selectedItem = state.selectedItems.find(
+        item =>
+            item.id === action.payload.id &&
+            item.categories === action.payload.categories
+    );
+
+    if (!selectedItem) return state;
+
+    if (selectedItem.quantity === 1) {
+        return {
+            ...state,
+            selectedItems: state.selectedItems.filter(
+                item =>
+                    !(
+                        item.id === action.payload.id &&
+                        item.categories === action.payload.categories
+                    )
+            )
+        };
+    }
+
     return {
         ...state,
         selectedItems: state.selectedItems.map(item =>

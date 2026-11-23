@@ -22,9 +22,7 @@ const ShoppingCartItem = ({ selecteditemData }) => {
                     </div>
                     <span className="text-green-600 font-bold">{price}$</span>
                    <div className="flex gap-1 items-stretch">
-                     {quantity ===0 && <button className="bg-blue-500 text-white px-2 py-1" onClick={()=> dispatch({type:"ADD_ITEM" ,payload:myProduct})}>
-                    +
-                    </button> }
+                    
 
                     {quantity > 0 &&  <button className="bg-blue-500 text-white px-2 py-1" onClick={()=> dispatch({type:"INCREASE" ,payload:myProduct})}>
                     +
