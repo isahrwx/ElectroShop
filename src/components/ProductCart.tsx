@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../contexts/CartContextProvider";
-import { isInCart , quantityCount } from './../shared/Helper';
+import { isInCart , quantityCount } from "../shared/Helper"
 import { Trash } from "lucide-react";
 
 const ProductCart = (props) => {

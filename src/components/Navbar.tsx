@@ -21,9 +21,10 @@ const Navbar = () => {
             <div className="user-area-box flex w-full items-center justify-center gap-4">
                 <button className="bg-blue-950 border border-blue-800 text-white px-4 py-1 hover:bg-blue-600 rounded-lg ">Login</button>
                 <button className="text-white border-b border-b-blue-700 hover:text-blue-300">Sign Up</button>
-               <span>
+               <Link to="/shoppingcart">
+               
                  <ShoppingCart color="white" size={25} />
-                </span>
+               </Link>
             </div>
             </div>
         </div>
