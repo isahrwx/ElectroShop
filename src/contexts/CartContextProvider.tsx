@@ -6,13 +6,21 @@ const initialState = {
     total: 0,
     checkout: false
 }
-
+const calculateTotal = (products)=>{
+    const total= products.reduce((sum , products)=> sum+ products.price * products.quantity , 0)
+    return total;
+}
 
 export const  CartContext = createContext(null);
 const cartReducer = (state, action) => {
    
+    
     switch (action.type) {
         case "ADD_ITEM": {
+            const updatedItems= [
+        ...state.selectedItems,
+        { ...action.payload, quantity: 1 }
+    ]
              if (state.selectedItems.some(item =>
         item.id === action.payload.id &&
         item.categories === action.payload.categories
@@ -22,34 +30,36 @@ const cartReducer = (state, action) => {
 
     return {
         ...state,
-        selectedItems: [
-            ...state.selectedItems,
-            { ...action.payload, quantity: 1 }
-        ]
-        , itemCounter:state.itemCounter+1
+        selectedItems: updatedItems
+        , itemCounter:state.itemCounter+1,
+        total:calculateTotal(updatedItems)
     };
 
         }
 
        case "REMOVE_ITEM": {
-  return {
-    ...state,
-    selectedItems: state.selectedItems.filter(item =>
+        const updatedItems=state.selectedItems.filter(item =>
       !(item.id === action.payload.id &&
         item.categories === action.payload.categories)
-    ),itemCounter:state.itemCounter-1
+    )
+  return {
+    ...state,
+    selectedItems:updatedItems ,itemCounter:state.itemCounter-1,total:calculateTotal(updatedItems)
   };
 }
         case "INCREASE": {
-    return {
-        ...state,
-        selectedItems: state.selectedItems.map(item =>
+            const updatedItems=state.selectedItems.map(item =>
             item.id === action.payload.id &&
             item.categories === action.payload.categories
                 ? { ...item, quantity: item.quantity + 1 }
                 : item
         )
-        , itemCounter:state.itemCounter+1
+    return {
+        ...state,
+        selectedItems:updatedItems
+        , itemCounter:state.itemCounter+1,
+        total:calculateTotal(updatedItems)
+       
     };
 }
 case "DECREASE": {
@@ -62,26 +72,27 @@ case "DECREASE": {
     if (!selectedItem) return state;
 
     if (selectedItem.quantity === 1) {
-        return {
-            ...state,
-            selectedItems: state.selectedItems.filter(
+        const updatedItems=state.selectedItems.filter(
                 item =>
                     !(
                         item.id === action.payload.id &&
                         item.categories === action.payload.categories
                     )
-            ),itemCounter:state.itemCounter-1
+            )
+        return {
+            ...state,
+            selectedItems: updatedItems,itemCounter:state.itemCounter-1,total:calculateTotal(updatedItems)
         };
     }
-
-    return {
-        ...state,
-        selectedItems: state.selectedItems.map(item =>
+const updatedItems = state.selectedItems.map(item =>
             item.id === action.payload.id &&
             item.categories === action.payload.categories
                 ? { ...item, quantity: item.quantity - 1 }
                 : item
-        ),itemCounter:state.itemCounter-1
+        )
+    return {
+        ...state,
+        selectedItems: updatedItems,itemCounter:state.itemCounter-1 , total:calculateTotal(updatedItems)
     };
 }
         case "CHECKOUT": {
