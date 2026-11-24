@@ -1,0 +1,16 @@
+.register-form-container{
+    /* background-color:#0B132B ; */
+    background: linear-gradient(#0b132bb8 , rgba(0, 0, 0, 0.841)),url("../images/signupformpic.jpg");
+
+    background-size: cover;
+    background-position: center ;
+}
+.register-form-container>.form-box{
+    background-color: #0b132b90;
+    backdrop-filter: blur(5px);
+}
+.register-form-container>.img-box{
+    background: linear-gradient(rgba(0, 0, 0, 0.143),#0b132bc2) , url("../images//signupformpic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

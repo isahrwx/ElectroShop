@@ -10,6 +10,8 @@ import CartContextProvider from './contexts/CartContextProvider'
 import ShoppingCartComponent from './components/shoppingcart/ShoppingCartComponent'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Login from './components/Login'
+import SignUp from './components/SignUp'
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Navbar/>
           <Routes>
             <Route path='/' element={<HomePage />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/signup' element={<SignUp />} />
             <Route path='/categorys' element={<Categories />} />
             <Route path='/shoppingcart' element={<ShoppingCartComponent />} />
             <Route path='/categorys/:title' element={<CategoryProducts />} />

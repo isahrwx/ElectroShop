@@ -30,8 +30,8 @@ const Navbar = () => {
             </div>
             <div className="user-area-box-container w-1/4">
             <div className="user-area-box flex w-full items-center justify-center gap-4">
-                <button className="bg-blue-950 border border-blue-800 text-white px-4 py-1 hover:bg-blue-600 rounded-lg ">Login</button>
-                <button className="text-white border-b border-b-blue-700 hover:text-blue-300">Sign Up</button>
+              <Link to="/Login" className="bg-blue-950 border border-blue-800 text-white px-4 py-1 hover:bg-blue-600 rounded-lg ">Login</Link>
+                <Link to="/signup" className="text-white border-b border-b-blue-700 hover:text-blue-300">Sign Up</Link>
                <Link to="/shoppingcart">
                
                  <span className="text-white flex gap-1"><ShoppingCart color="white" size={25} /> {itemCounter}</span>
