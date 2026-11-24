@@ -15,7 +15,7 @@ const ShoppingCartComponent = () => {
             <div className="shopping-cart-container p-6 flex w-full">
                 <div className="left-box w-3/5 px-4">
                     <div className="cart-items-box ">
-                        {selectedItems.map(item => <ShoppingCartItem key={`${item.key}-${item.categories}`} selecteditemData={item} />)}
+                        {selectedItems.map(item => <ShoppingCartItem key={`${item.id}-${item.categories}`} selecteditemData={item} />)}
                     </div>
                 </div>
                 <div className="right-box w-2/5">
