@@ -20,7 +20,7 @@ const SignUp = () => {
         const email = formData.get("email");
         const currentPassword = formData.get("currentPassword");
         const confirmPassword = formData.get("confirmPassword");
-        const emailPattern = /^[^\s@]+@[^\s@]+.[^\s@]+$/;
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (typeof username !== "string" || username.trim() === "") {
             errors.username = "username is required!";
         }
