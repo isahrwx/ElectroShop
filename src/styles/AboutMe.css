@@ -1,0 +1,4 @@
+.about-container{
+    background: linear-gradient(rgba(0, 0, 255, 0.272) , rgba(0, 0, 255, 0.192)) , url("../images/aboutbanner.png");
+    background-size: cover;
+}

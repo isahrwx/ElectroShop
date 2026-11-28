@@ -12,6 +12,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Login from './components/Login'
 import SignUp from './components/SignUp'
+import Aboutme from './components/Aboutme'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path='/' element={<HomePage />} />
             <Route path='/login' element={<Login />} />
             <Route path='/signup' element={<SignUp />} />
+            <Route path='/aboutme' element={<Aboutme />} />
             <Route path='/categorys' element={<Categories />} />
             <Route path='/shoppingcart' element={<ShoppingCartComponent />} />
             <Route path='/categorys/:title' element={<CategoryProducts />} />

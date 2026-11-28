@@ -25,7 +25,9 @@
       "altdescription": "Sony S1 black headphones with a simple and practical design",
       "price": 110,
       "categories": "Headphones",
-      "color":[ "black"],
+      "color": [
+        "black"
+      ],
       "brand": "sony"
     },
     {
@@ -36,7 +38,9 @@
       "altdescription": "Sony S2 white headphones with a minimalist design",
       "price": 250,
       "categories": "Headphones",
-      "color": ["white"],
+      "color": [
+        "white"
+      ],
       "brand": "sony"
     },
     {
@@ -47,7 +51,9 @@
       "altdescription": "Sony S3 white headphones for everyday music listening",
       "price": 220,
       "categories": "Headphones",
-      "color": ["white"],
+      "color": [
+        "white"
+      ],
       "brand": "sony"
     },
     {
@@ -58,7 +64,9 @@
       "altdescription": "Sony S4 dark gray headphones with a modern design",
       "price": 310,
       "categories": "Headphones",
-      "color": ["darkgray"],
+      "color": [
+        "darkgray"
+      ],
       "brand": "sony"
     },
     {
@@ -69,7 +77,9 @@
       "altdescription": "Sony S5 pink headphones with an attractive and unique design",
       "price": 350,
       "categories": "Headphones",
-      "color": ["pink"],
+      "color": [
+        "pink"
+      ],
       "brand": "sony"
     },
     {
@@ -80,7 +90,9 @@
       "altdescription": "Sony S6 black headphones with a classic everyday design",
       "price": 290,
       "categories": "Headphones",
-      "color": ["black"],
+      "color": [
+        "black"
+      ],
       "brand": "sony"
     },
     {
@@ -91,7 +103,9 @@
       "altdescription": "Sony S7 white headphones with an elegant minimalist look",
       "price": 380,
       "categories": "Headphones",
-      "color": ["white"],
+      "color": [
+        "white"
+      ],
       "brand": "sony"
     },
     {
@@ -102,7 +116,9 @@
       "altdescription": "Sennheiser Q1 light gray headphones",
       "price": 870,
       "categories": "Headphones",
-      "color": ["lightgray"],
+      "color": [
+        "lightgray"
+      ],
       "brand": "Sennheiser"
     },
     {
@@ -113,7 +129,9 @@
       "altdescription": "Sennheiser Q2 dark blue headphones with a stylish appearance",
       "price": 754,
       "categories": "Headphones",
-      "color": ["darkblue"],
+      "color": [
+        "darkblue"
+      ],
       "brand": "Sennheiser"
     },
     {
@@ -138,7 +156,9 @@
       "altdescription": "Sennheiser Q4 brown headphones with a distinctive design",
       "price": 1850,
       "categories": "Headphones",
-      "color": ["brown"],
+      "color": [
+        "brown"
+      ],
       "brand": "Sennheiser"
     },
     {
@@ -160,7 +180,9 @@
       "altdescription": "Sennheiser Q6 dark gray headphones with a modern look",
       "price": 2713,
       "categories": "Headphones",
-      "color": ["darkgray"],
+      "color": [
+        "darkgray"
+      ],
       "brand": "Sennheiser"
     },
     {
@@ -188,7 +210,9 @@
       "altdescription": "Anker wireless charger in a light gray finish",
       "price": 110,
       "categories": "Accessories",
-      "color": ["lightgray"],
+      "color": [
+        "lightgray"
+      ],
       "brand": "Anker"
     },
     {
@@ -199,7 +223,9 @@
       "altdescription": "Cute brown bear-themed iPhone charger",
       "price": 250,
       "categories": "Accessories",
-      "color": ["brown"],
+      "color": [
+        "brown"
+      ],
       "brand": "charger"
     },
     {
@@ -210,7 +236,9 @@
       "altdescription": "Blue astronaut-themed iPhone charger",
       "price": 220,
       "categories": "Accessories",
-      "color": ["blue"],
+      "color": [
+        "blue"
+      ],
       "brand": "charger"
     },
     {
@@ -221,7 +249,9 @@
       "altdescription": "Brown cat-shaped mobile phone holder",
       "price": 310,
       "categories": "Accessories",
-      "color": ["brown"],
+      "color": [
+        "brown"
+      ],
       "brand": "holder"
     },
     {
@@ -232,7 +262,9 @@
       "altdescription": "Dark gray mobile phone holder",
       "price": 350,
       "categories": "Accessories",
-      "color": ["darkgray"],
+      "color": [
+        "darkgray"
+      ],
       "brand": "holder"
     },
     {
@@ -243,7 +275,9 @@
       "altdescription": "Black mobile phone holder for desk use",
       "price": 290,
       "categories": "Accessories",
-      "color": ["black"],
+      "color": [
+        "black"
+      ],
       "brand": "holder"
     },
     {
@@ -254,7 +288,9 @@
       "altdescription": "Dark gray mobile phone holder for hands-free viewing",
       "price": 380,
       "categories": "Accessories",
-      "color": ["darkgray"],
+      "color": [
+        "darkgray"
+      ],
       "brand": "holder"
     },
     {
@@ -279,7 +315,9 @@
       "altdescription": "Dark gray multi-type device charger",
       "price": 754,
       "categories": "Accessories",
-      "color": ["darkgray"],
+      "color": [
+        "darkgray"
+      ],
       "brand": "charger"
     },
     {
@@ -290,7 +328,9 @@
       "altdescription": "Sennheiser Q3 black and white dual-color headphones",
       "price": 985,
       "categories": "Accessories",
-      "color": ["black"],
+      "color": [
+        "black"
+      ],
       "brand": "portronics"
     },
     {
@@ -301,7 +341,9 @@
       "altdescription": "White Turbo portable power bank",
       "price": 1850,
       "categories": "Accessories",
-      "color": ["white"],
+      "color": [
+        "white"
+      ],
       "brand": "turbo"
     },
     {
@@ -312,7 +354,9 @@
       "altdescription": "Black Turbo portable power bank",
       "price": 986,
       "categories": "Accessories",
-      "color": ["black"],
+      "color": [
+        "black"
+      ],
       "brand": "turbo"
     },
     {
@@ -323,7 +367,9 @@
       "altdescription": "Golden Type-C charger",
       "price": 2713,
       "categories": "Accessories",
-      "color": ["gray"],
+      "color": [
+        "gray"
+      ],
       "brand": "charger"
     },
     {
@@ -334,7 +380,9 @@
       "altdescription": "Light gray Type-C charger",
       "price": 1598,
       "categories": "Accessories",
-      "color": ["lightgray"],
+      "color": [
+        "lightgray"
+      ],
       "brand": "charger"
     },
     {
@@ -345,7 +393,9 @@
       "altdescription": "Green URBN portable power bank",
       "price": 1598,
       "categories": "Accessories",
-      "color": ["green"],
+      "color": [
+        "green"
+      ],
       "brand": "URBN"
     }
   ],
@@ -358,7 +408,9 @@
       "price": 87,
       "altdescription": "Black Alexa speaker with a compact design",
       "categories": "Speackers",
-      "color": ["black"],
+      "color": [
+        "black"
+      ],
       "brand": "Alexa"
     },
     {
@@ -369,7 +421,9 @@
       "altdescription": "Pink Daykit speaker",
       "price": 250,
       "categories": "Speackers",
-      "color": ["pink"],
+      "color": [
+        "pink"
+      ],
       "brand": "daykit"
     },
     {
@@ -380,40 +434,48 @@
       "altdescription": "Red JBL Party speaker",
       "price": 220,
       "categories": "Speackers",
-      "color": ["red"],
+      "color": [
+        "red"
+      ],
       "brand": "JBL party"
     },
     {
       "id": 4,
       "Producttitle": "JBL party speacker c2",
       "description": "This JBL Party speaker features a blue finish and offers an audio option for music at home or social gatherings. Its colorful design makes it a noticeable addition to your setup.",
-      "image": "/src/images/products/HeadPhones/sonyHeadphone4.jfif",
+      "image": "/src/images/products/Speackers/JBL speacker 2.jfif",
       "altdescription": "Blue JBL Party speaker",
       "price": 310,
       "categories": "Speackers",
-      "color": ["blue"],
+      "color": [
+        "blue"
+      ],
       "brand": "JBL party"
     },
     {
       "id": 5,
       "Producttitle": "JBL party speacker c3",
       "description": "The JBL Party speaker features a black design that is easy to match with different spaces. It is suitable for enjoying music and other audio content at home or during get-togethers.",
-      "image": "/src/images/products/HeadPhones/sonyHeadphone5.jfif",
+      "image": "/src/images/products/Speackers/JBL speacker 3.jfif",
       "altdescription": "Black JBL Party speaker",
       "price": 350,
       "categories": "Speackers",
-      "color": ["black"],
+      "color": [
+        "black"
+      ],
       "brand": "JBL party"
     },
     {
       "id": 6,
       "Producttitle": "JBL party speacker c4",
       "description": "This black JBL Party speaker offers a simple, versatile look for home listening and social occasions. Its classic color blends easily into entertainment setups.",
-      "image": "/src/images/products/HeadPhones/sonyHeadphone6.jfif",
+      "image": "/src/images/products/Speackers/JBL speacker 4.jfif",
       "altdescription": "Black JBL Party speaker for home listening",
       "price": 290,
       "categories": "Speackers",
-      "color": ["black"],
+      "color": [
+        "black"
+      ],
       "brand": "JBL party"
     },
     {
@@ -438,7 +500,9 @@
       "altdescription": "Black Ortizan speaker",
       "price": 870,
       "categories": "Speackers",
-      "color": ["black"],
+      "color": [
+        "black"
+      ],
       "brand": "Ortizan"
     },
     {
@@ -449,7 +513,9 @@
       "altdescription": "Black Sony speaker",
       "price": 754,
       "categories": "Speackers",
-      "color": ["black"],
+      "color": [
+        "black"
+      ],
       "brand": "sony"
     },
     {
@@ -460,7 +526,9 @@
       "altdescription": "Green Sony speaker",
       "price": 985,
       "categories": "Speackers",
-      "color": ["green"],
+      "color": [
+        "green"
+      ],
       "brand": "sony"
     },
     {
@@ -471,7 +539,9 @@
       "altdescription": "Green Sony speaker for everyday audio",
       "price": 1850,
       "categories": "Speackers",
-      "color": ["green"],
+      "color": [
+        "green"
+      ],
       "brand": "sony"
     },
     {
@@ -482,7 +552,9 @@
       "altdescription": "Purple Sony speaker",
       "price": 986,
       "categories": "Speackers",
-      "color": ["purple"],
+      "color": [
+        "purple"
+      ],
       "brand": "sony"
     },
     {
@@ -509,8 +581,65 @@
       "altdescription": "Black Yier speaker",
       "price": 1598,
       "categories": "Speackers",
-      "color": ["black"],
+      "color": [
+        "black"
+      ],
       "brand": "yier"
     }
+  ],
+  "Popularproducts":[
+    {
+      "id": 8,
+      "Producttitle": "Ortizan speacker z2",
+      "description": "The Ortizan speaker features a classic black finish that suits a variety of spaces. It provides an everyday audio option for music, podcasts, and other content.",
+      "image": "/src/images/products/Speackers/ortizan speacker o1.jfif",
+      "altdescription": "Black Ortizan speaker",
+      "price": 870,
+      "categories": "Speackers",
+      "color": [
+        "black"
+      ],
+      "brand": "Ortizan"
+    },
+    {
+      "id": 9,
+      "Producttitle": "sony speacker c1",
+      "description": "This Sony speaker features a black finish and a simple design that fits easily into different entertainment setups. It is suitable for everyday music and audio playback.",
+      "image": "/src/images/products/Speackers/sony speacker 1.jfif",
+      "altdescription": "Black Sony speaker",
+      "price": 754,
+      "categories": "Speackers",
+      "color": [
+        "black"
+      ],
+      "brand": "sony"
+    },
+    {
+      "id": 10,
+      "Producttitle": "sony speacker c2",
+      "description": "The Sony speaker features a green finish that gives it a fresh, distinctive look. It is an audio accessory for enjoying music and other content in everyday settings.",
+      "image": "/src/images/products/Speackers/sony speacker 2.jfif",
+      "altdescription": "Green Sony speaker",
+      "price": 985,
+      "categories": "Speackers",
+      "color": [
+        "green"
+      ],
+      "brand": "sony"
+    },
+    {
+      "id": 11,
+      "Producttitle": "sony speacker c3",
+      "description": "This Sony speaker comes in a green finish and offers a practical audio option for home listening and entertainment. Its color adds a noticeable accent to your setup.",
+      "image": "/src/images/products/Speackers/sony speacker 3.jfif",
+      "altdescription": "Green Sony speaker for everyday audio",
+      "price": 1850,
+      "categories": "Speackers",
+      "color": [
+        "green"
+      ],
+      "brand": "sony"
+    }
   ]
+  
 }

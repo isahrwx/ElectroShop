@@ -1,0 +1,11 @@
+{
+    "title":"Hi, Im Sahra" , 
+    "description":"Im a Software Engineer and a passionate Web Developer who loves turning ideas into beautiful, responsive, and functional web experiences. I enjoy exploring new technologies, solving problems, and continuously improving my skills. My main focus is Front-End Development, especially building modern web applications with React and Next.js. I believe that every project is an opportunity to learn, create, and grow. I'm always excited to take on new challenges and turn creative ideas into reality. Let's build something amazing together!",
+    "socials":[
+        {"id":1, "socialname":"Github", "sociallogo":"/src/images/githubIcon.png" ,"sociallink":"https://github.com/isahrwx" },
+        {"id":2, "socialname":"youtube", "sociallogo":"/src/images/youtubeIcon.png","sociallink":"https://www.youtube.com/@logicallearn_team"},
+        {"id":3, "socialname":"instagram", "sociallogo":"/src/images/instagramIcon.png","sociallink":"https://instagram.com/logicallearn_team"}
+    ]
+    
+
+}

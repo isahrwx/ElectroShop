@@ -36,6 +36,7 @@ const Navbar = () => {
                
                  <span className="text-white flex gap-1"><ShoppingCart color="white" size={25} /> {itemCounter}</span>
                </Link>
+               
             </div>
             </div>
         </div>
@@ -43,6 +44,7 @@ const Navbar = () => {
     <div className="bottom-navbar items-center py-2 flex justify-center gap-5">
       <Link to="/" className="text-white border-b border-b-blue-400 py-1 text-center hover:text-blue-300">Home</Link>
       <Link to="/categorys" className="text-white border-b border-b-blue-400 py-1 text-center hover:text-blue-300">Categorys</Link>
+      <Link to="/aboutme" className="text-blue-500 border-b border-b-blue-400 py-1 text-center hover:text-blue-300">About Me</Link>
       
     </div>
         </div>
